@@ -14,6 +14,7 @@
 
 
 
+
 @media (max-width: 485px) {
             .headnav1{
                 width: 20%;
@@ -38,6 +39,10 @@
 
         }
 
+        
+
+        
+
         @media (max-width: 422px) {
             .navblue img{
                 width: 140px;}
@@ -45,7 +50,7 @@
                 font-size: 9px;
             }
             .headnav1{
-                width:2%;
+                width:20%;
             }
             .foot u{
                 font-size: 10px;
@@ -54,6 +59,8 @@
                 font-size: 10px;
             }
         }
+       
+        
 
 @media (min-width:485px) and  (max-width: 1000px) {
     .headnav1{
@@ -71,7 +78,30 @@
     .navbar-nav{
         /* width: 20%; */
     }
+    .seeall{
+        margin-left: 70%;
+    }
+    /* .card-body{
+            min-height: 30vh;
+            max-height: 35vh;
+        } */
 }
+
+@media (max-width:350px){
+            .headnav1{
+                width:5%;
+            }
+            .navbar-nav li{
+                font-size: 7px;
+            }
+            .card1 img{
+                height: 200px;
+                object-fit: cover;
+            object-position: center;
+            }
+        }
+
+
 
 @media (min-width: 1000px){
     .navblue{
@@ -85,9 +115,17 @@
             text-align: justify;
             margin-left: 50%;
         }
-
+    .seeall{
+        margin-left: 85%;
+    }
+    .card-body{
+            /* min-height: 30vh; */
+        }
 }
         
+
+
+
         .body{
             font-family: 'Calibri' !important;
             
@@ -200,6 +238,7 @@
             font-weight: bold;
 
         }
+        
        
     </style>
 </head>
@@ -236,7 +275,7 @@
             <div class="card1" id="home"> 
                 <img src="/img/jumbo.jpg" width="100%" alt="">
                 <div class="jumbotron px-5 ">
-                    <H1 class="text-center">Welcome to Bali!</H1>
+                    <H1 class="text-center"><b>Welcome to Bali!</b></H1>
                     <p class="text-start">Pariwisata Bali merupakan salah satu tujuan wisata yang sudah tidak diragukan lagi oleh wisatawan asing maupun wisatawan domestik. Pariwisata Bali sudah menjadi tujuan wisata dunia yang terkenal di seluruh manca negara. Hal Ini terbukti bahwa kunjungan wisatawan asing maupun wisatawan domestik ke Bali dari tahun ke tahun semakin meningkat. Namun tidak hanya kunjungan wisatawan untuk berlibur saja yang menyebabkan faktor perkembangan kunjungan wisatawan ke Bali meningkat, akan tetapi dengan sering diadakannya acara atau event international di Bali juga salah satu faktor perkembangan peningkatan kunjungan tersebut.</p>
                 </div>
             </div>
@@ -244,90 +283,107 @@
           </div>
         <article class="card2" id="content">
             <div>
-                <h2 >Travel Blog (content) </h2>
-                <div class="d-flex flex-row">
-                    <div class="card shadow" style="width: 18rem;">
-                        <img src="/img/content/2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">10 Tempat Wisata paling menakjubkan di Pulau Bali </h5>
-                            <p class="card-text">10 Tempat wisata yang sangat menakjubkan, menggabungkan alam memukau, budaya kaya, dan pengalaman tak terlupakan.</p>
-                            <a href="#" class="btn btn-info">Read More</a>
-                        </div>
-                    </div>
-                    <div class="card shadow" style="width: 18rem;">
-                        <img src="/img/content/6-air.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">7 Tempat Wisata Air Terbaik di Pulau Bali </h5>
-                            <p class="card-text"> 7 destinasi wisata air yang luar biasa indah, memikat pengunjung dengan keindahan alam bawah laut yang memukau.</p>
-                            <a href="#" class="btn btn-info">Read More</a>
-                        </div>
-                    </div>
-                    <div class="card shadow" style="width: 18rem;">
-                        <img src="/img/content/4-keluarga.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">5 Tempat Wisata untuk Sekeluarga di Pulau Bali </h5>
-                            <p class="card-text">5 lokasi wisata yang sempurna untuk dinikmati bersama seluruh anggota keluarga yang menghadirkan momen tak terlupakan</p>
-                            <a href="#" class="btn btn-info">Read More</a>
-                        </div>
-                    </div>
-                    <div class="card shadow" style="width: 18rem;">
-                        <img src="/img/content/3-sejarah.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">10 Tempat Wisata Bersejarah di Pulau Bali </h5>
-                            <p class="card-text">10 lokasi wisata bersejarah yang mengungkapkan warisan budaya kaya dan jejak peradaban masa lalu.</p>
-                            <a href="#" class="btn btn-info">Read More</a>
-                        </div>
-                    </div>
-                    <div class="card shadow" style="width: 18rem;">
-                        <img src="/img/content/1-refreshing.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">5 Tempat Wisata Alam untuk Refreshing di
-                                Pulau Bali </h5>
-                            <p class="card-text">5 tempat wisata alam yang menyegarkan, memberikan peluang untuk merevitalisasi diri dalam dekapan alam yang indah dan menenangkan.</p>
-                            <a href="#" class="btn btn-info">Read More</a>
-                        </div>
-                    </div>
+                <h1 ><b>Travel Blog (content) </b></h1>
+                <div class="container">
+    <div class="row">
+        <div class="col-md-4 my-2">
+            <div class="card shadow">
+                <img src="/img/content/2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">10 Tempat Wisata paling menakjubkan di Pulau Bali</h5>
+                    <p class="card-text">10 Tempat wisata yang sangat menakjubkan, menggabungkan alam memukau, budaya kaya, dan pengalaman tak terlupakan.</p>
+                    <a href="#" class="btn btn-info">Read More</a>
                 </div>
-                <div style="margin-left: 85%; font-weight: bold; text-decoration: underline; " id="gallery">See All Article>></div>
+            </div>
+        </div>
+        <div class="col-md-4 my-2">
+            <div class="card shadow">
+                <img src="/img/content/6-air.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">7 Tempat Wisata Air Terbaik di Pulau Bali</h5>
+                    <p class="card-text">7 destinasi wisata air yang luar biasa indah, memikat pengunjung dengan keindahan alam bawah laut yang memukau.</p>
+                    <a href="#" class="btn btn-info">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 my-2">
+            <div class="card shadow">
+                <img src="/img/content/4-keluarga.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">5 Tempat Wisata untuk Sekeluarga di Pulau Bali</h5>
+                    <p class="card-text">5 lokasi wisata yang sempurna untuk dinikmati bersama seluruh anggota keluarga yang menghadirkan momen tak terlupakan</p>
+                    <a href="#" class="btn btn-info">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 my-2">
+            <div class="card shadow">
+                <img src="/img/content/3-sejarah.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">10 Tempat Wisata Bersejarah di Pulau Bali</h5>
+                    <p class="card-text">10 lokasi wisata bersejarah yang mengungkapkan warisan budaya kaya dan jejak peradaban masa lalu.</p>
+                    <a href="#" class="btn btn-info">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 my-2">
+            <div class="card shadow">
+                <img src="/img/content/1-refreshing.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">5 Tempat Wisata Alam untuk Refreshing di Pulau Bali</h5>
+                    <p class="card-text">5 tempat wisata alam yang menyegarkan, memberikan peluang untuk merevitalisasi diri dalam dekapan alam yang indah dan menenangkan.</p>
+                    <a href="#" class="btn btn-info">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 my-2">
+            <div class="card shadow">
+                <img src="/img/content/Garuda-Wisnu-Kencana.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">5 Tempat Wisata Budaya Sakral di Pulau Bali</h5>
+                    <p class="card-text">5 tempat wisata alam yang terdapat unsur budaya dan tradisi di Pulau Bali.</p>
+                    <a href="#" class="btn btn-info">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <div class="seeall" style=" font-weight: bold; text-decoration: underline; " id="gallery">See All Article>></div>
             </div>
         </article>
         <hr class="border border-primary border-3 opacity-75 my-0" >
         <article class="card3" >
             <section>
                 <h2  class="pb-3">
-                    Gallery Wisata Bali</h2>
-                <div class="gallery1 py-3 pb-0 d-flex justify-content-center align-items-center shadow" >
+                    <b>Gallery Wisata Bali</b></h2>
+            <div class="row gallery1">
+                <!-- baru -->
+                <div class="col-md-4 my-2">
                     <div class="mx-4">
-                        <figure>
-                            <img src="/img/Gallery/kelingking.jpg" alt="Image" class="img-fluid">
-                            <div>
-                                <p class="text-center">Pantai Kelingking Bali</p>
-                            </div>                    
-                        </figure>
+                        <img src="/img/Gallery/kelingking.jpg" alt="Image" class="img-fluid">
+                        <div>
+                                <p>Pantai Kelingking Bali</p>
+                        </div>  
                     </div>
-                    <div class="mx-4">
-                        <figure class="effect-ming tm-video-item">
-                            <img src="/img/Gallery/pura ulun danu bratan.jpg" alt="Image" class="img-fluid">
-                            <figcaption>
-                                <p class="text-center">Pura Ulun Danu Bratan</p>
-                            </figcaption>                    
-                        </figure>
-                    </div>
-                    <div class="mx-4">
-                        <figure class="effect-ming tm-video-item">
-                            <img src="/img/Gallery/taman budaya gwk.jpg" alt="Image" class="img-fluid">
-                            <figcaption>
-                                <p class="text-center">Taman Budaya GWK</p>
-                            </figcaption>                    
-                        </figure>
-                    </div>
-
                 </div>
-                    
-
-
-
-
+                <div class="col-md-4 my-2">
+                    <div class="mx-4">
+                        <img src="/img/Gallery/pura ulun danu bratan.jpg" alt="Image" class="img-fluid">
+                            <figcaption>
+                                <p>Pura Ulun Danu Bratan</p>
+                            </figcaption>    
+                    </div>
+                </div>
+                <div class="col-md-4 my-2">
+                    <div class="mx-4">
+                        <img src="/img/Gallery/taman budaya gwk.jpg" alt="Image" class="img-fluid">
+                            <figcaption>
+                                <p>Taman Budaya GWK</p>
+                            </figcaption>  
+                    </div>
+                </div>
+            </div>
             </section>
         </article>
     </main>
@@ -357,5 +413,52 @@
     crossorigin="anonymous">
     </script>
 </body>
-
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+TANPA BOOTSTRAP TANPA RESPONSIVE
+<div class="gallery1 py-3 pb-0 d-flex justify-content-center align-items-center shadow" >
+                    <div class="mx-4">
+                        <figure>
+                            <img src="/img/Gallery/kelingking.jpg" alt="Image" class="img-fluid">
+                            <div>
+                                <p class="text-center">Pantai Kelingking Bali</p>
+                            </div>                    
+                        </figure>
+                    </div>
+                    <div class="mx-4">
+                        <figure class="effect-ming tm-video-item">
+                            <img src="/img/Gallery/pura ulun danu bratan.jpg" alt="Image" class="img-fluid">
+                            <figcaption>
+                                <p class="text-center">Pura Ulun Danu Bratan</p>
+                            </figcaption>                    
+                        </figure>
+                    </div>
+                    <div class="mx-4">
+                        <figure class="effect-ming tm-video-item">
+                            <img src="/img/Gallery/taman budaya gwk.jpg" alt="Image" class="img-fluid">
+                            <figcaption>
+                                <p class="text-center">Taman Budaya GWK</p>
+                            </figcaption>                    
+                        </figure>
+                    </div>
+
+                </div>
+    
+    
+
+
+
+
+ -->
