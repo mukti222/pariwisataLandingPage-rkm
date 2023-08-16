@@ -12,25 +12,85 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <style>
 
-/* @media (max-width: 767px) {
-            .nav-item {
-                width: auto;
-                margin: 0 5px;
+
+
+@media (max-width: 485px) {
+            .headnav1{
+                width: 20%;
             }
-            .blank {
-                display: none;
+            .headnav2{
+                width: 30px;
             }
-            .gallery1 img {
-                height: 200px;
-                width: 100%;
+            .navblue{
+                margin-top: -2px;
             }
-            .card {
-                width: 100%;
+            .navblue img{
+                width: 160px;
+            }.navbar-nav{
+                width: 0px;
             }
-        } */
+            .nav-item{
+                margin-right: 10px;
+            }
+            .navbar-nav li{
+                font-size: 11px;
+            }
+
+        }
+
+        @media (max-width: 422px) {
+            .navblue img{
+                width: 140px;}
+            .navbar-nav li{
+                font-size: 9px;
+            }
+            .headnav1{
+                width:2%;
+            }
+            .foot u{
+                font-size: 10px;
+            }
+            .foot h5{
+                font-size: 10px;
+            }
+        }
+
+@media (min-width:485px) and  (max-width: 1000px) {
+    .headnav1{
+        width: 200px;
+    }
+    .blank {
+                width: 20px;
+            }
+    .navblue{
+        background-color: #17a2b8  ;
+    }
+    .foot{
+        margin-left: 0px !important;
+    }
+    .navbar-nav{
+        /* width: 20%; */
+    }
+}
+
+@media (min-width: 1000px){
+    .navblue{
+        justify-content: center;
+    }
+    .headnav1{
+        width: 90%;
+    }
+
+    .foot{
+            text-align: justify;
+            margin-left: 50%;
+        }
+
+}
         
         .body{
             font-family: 'Calibri' !important;
+            
 
         }
         .nav-item {
@@ -53,11 +113,7 @@
             width: 65%;
         }
 
-        @media (max-width: 991px) {
-            .blank {
-                width: 20px;
-            }
-        }
+
 
         .gallery {
             height: 80vh;
@@ -132,7 +188,6 @@
         }
         .foot{
             text-align: justify;
-            margin-left: 50%;
         }
 
         li{
@@ -150,39 +205,30 @@
 </head>
 
 <body>
-    <header class="sticky-top" >
-        <nav class="navbar navbar-expand-lg bg-info" style="height: 50px;">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="/img/logo.png" alt="" style="height: 50px;">
-                </a>
-                <div class="blank"></div>
-                <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav" >
-                            <ul class="navbar-nav">
-                                <li class="nav-item"> 
-                                    <a class="nav-link active" href="#home" >Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="#content" >Blog</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="#gallery">Gallery</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="#contact">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                </div>
+    <header class="sticky-top navblue bg-info d-flex 
+    flex-row" >
+        <!-- <nav class="navbar navbar-expand-lg bg-info"> -->
+            <img src="/img/logo.png" alt="" 
+                style="height: 50px;" 
+            >
+            <div class="headnav1"></div>
+            <div class="headnav2">
+                <ul class="navbar-nav d-flex flex-row">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#content">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+
     </header>
 
     <main>
@@ -286,7 +332,7 @@
         </article>
     </main>
 
-    <footer class="d-flex flex-column" style="background-color: #467aad;">
+    <footer class="d-flex flex-column footer-res" style="background-color: #467aad;">
        <div class="foot d-flex flex-row py-3" id="contact">
             <div class="px-5">
                 <h5>RECENT POST</h5>
