@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <!-- Popper.js (Required for Bootstrap's dropdowns, tooltips, and popovers) -->
+    <script src="popper.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bali Travel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+
+/* @media (max-width: 767px) {
+            .nav-item {
+                width: auto;
+                margin: 0 5px;
+            }
+            .blank {
+                display: none;
+            }
+            .gallery1 img {
+                height: 200px;
+                width: 100%;
+            }
+            .card {
+                width: 100%;
+            }
+        } */
+        
+        .body{
+            font-family: 'Calibri' !important;
+
+        }
+        .nav-item {
+            margin-left: 0px;
+            width: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            font-weight: bold;
+
+        }
+
+        .nav-item:hover {
+            background-color: #1D5D9B;
+            transition-duration: 1s;
+        }
+
+        .blank {
+            width: 65%;
+        }
+
+        @media (max-width: 991px) {
+            .blank {
+                width: 20px;
+            }
+        }
+
+        .gallery {
+            height: 80vh;
+            border: 1px solid black;
+        }
+
+        .main {
+            height: 5000px;
+        }
+
+        
+
+        .card2{
+            padding: 20px;
+            background-color: rgb(204, 236, 248);
+            /* margin-bottom: 15px; */
+        }
+        .card p{
+            color: rgba(102, 102, 102, 0.758);
+        }
+        .card3{
+            padding: 20px;
+            padding-bottom: 40px;
+            /* margin-bottom: 20px; */
+            /* background-color: rgb(183, 233, 252); */
+            background-color: rgb(182, 226, 247);
+            /* margin-bottom: 15px; */
+        }
+
+        .card1{
+            /* border: 5px solid black; */
+            /* border-radius: 15px; */
+            background-color: rgb(255, 146, 113);
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: white;
+        }
+
+        .card{
+            padding: -10px;
+            margin: 10px;
+        }
+        .card-title{
+            font-weight: bold;
+        }
+
+        .a1{
+            border: 1px solid black;
+            height: 40vh;
+            width: 30vh;
+            background-color: aliceblue;
+            margin: 20px;
+        }
+        .a2{
+            border: 1px solid black;
+            height: 40vh;
+            width: 30vh;
+            background-color: aqua;
+            margin: 20px;
+        }
+        .btncard{
+            background-color: cyan;
+        }
+        .gallery1 img{
+            height: 300px;
+            width: 300px;
+            object-fit: cover;
+            object-position: center;
+        }
+        .foot{
+            text-align: justify;
+            margin-left: 50%;
+        }
+
+        li{
+            list-style-type: none;
+        }
+        .foot1 p{
+            padding-left: 30px;
+        }
+        footer p{
+            font-weight: bold;
+
+        }
+       
+    </style>
+</head>
+
+<body>
+    <header class="sticky-top" >
+        <nav class="navbar navbar-expand-lg bg-info" style="height: 50px;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="/img/logo.png" alt="" style="height: 50px;">
+                </a>
+                <div class="blank"></div>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav" >
+                            <ul class="navbar-nav">
+                                <li class="nav-item"> 
+                                    <a class="nav-link active" href="#home" >Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#content" >Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#gallery">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="card1" id="home"> 
+                <img src="/img/jumbo.jpg" width="100%" alt="">
+                <div class="jumbotron px-5 ">
+                    <H1 class="text-center">Welcome to Bali!</H1>
+                    <p class="text-start">Pariwisata Bali merupakan salah satu tujuan wisata yang sudah tidak diragukan lagi oleh wisatawan asing maupun wisatawan domestik. Pariwisata Bali sudah menjadi tujuan wisata dunia yang terkenal di seluruh manca negara. Hal Ini terbukti bahwa kunjungan wisatawan asing maupun wisatawan domestik ke Bali dari tahun ke tahun semakin meningkat. Namun tidak hanya kunjungan wisatawan untuk berlibur saja yang menyebabkan faktor perkembangan kunjungan wisatawan ke Bali meningkat, akan tetapi dengan sering diadakannya acara atau event international di Bali juga salah satu faktor perkembangan peningkatan kunjungan tersebut.</p>
+                </div>
+            </div>
+            <hr class="border border-primary border-3 opacity-75 my-0" >
+          </div>
+        <article class="card2" id="content">
+            <div>
+                <h2 >Travel Blog (content) </h2>
+                <div class="d-flex flex-row">
+                    <div class="card shadow" style="width: 18rem;">
+                        <img src="/img/content/2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">10 Tempat Wisata paling menakjubkan di Pulau Bali </h5>
+                            <p class="card-text">10 Tempat wisata yang sangat menakjubkan, menggabungkan alam memukau, budaya kaya, dan pengalaman tak terlupakan.</p>
+                            <a href="#" class="btn btn-info">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card shadow" style="width: 18rem;">
+                        <img src="/img/content/6-air.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">7 Tempat Wisata Air Terbaik di Pulau Bali </h5>
+                            <p class="card-text"> 7 destinasi wisata air yang luar biasa indah, memikat pengunjung dengan keindahan alam bawah laut yang memukau.</p>
+                            <a href="#" class="btn btn-info">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card shadow" style="width: 18rem;">
+                        <img src="/img/content/4-keluarga.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">5 Tempat Wisata untuk Sekeluarga di Pulau Bali </h5>
+                            <p class="card-text">5 lokasi wisata yang sempurna untuk dinikmati bersama seluruh anggota keluarga yang menghadirkan momen tak terlupakan</p>
+                            <a href="#" class="btn btn-info">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card shadow" style="width: 18rem;">
+                        <img src="/img/content/3-sejarah.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">10 Tempat Wisata Bersejarah di Pulau Bali </h5>
+                            <p class="card-text">10 lokasi wisata bersejarah yang mengungkapkan warisan budaya kaya dan jejak peradaban masa lalu.</p>
+                            <a href="#" class="btn btn-info">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card shadow" style="width: 18rem;">
+                        <img src="/img/content/1-refreshing.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">5 Tempat Wisata Alam untuk Refreshing di
+                                Pulau Bali </h5>
+                            <p class="card-text">5 tempat wisata alam yang menyegarkan, memberikan peluang untuk merevitalisasi diri dalam dekapan alam yang indah dan menenangkan.</p>
+                            <a href="#" class="btn btn-info">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-left: 85%; font-weight: bold; text-decoration: underline; " id="gallery">See All Article>></div>
+            </div>
+        </article>
+        <hr class="border border-primary border-3 opacity-75 my-0" >
+        <article class="card3" >
+            <section>
+                <h2  class="pb-3">
+                    Gallery Wisata Bali</h2>
+                <div class="gallery1 py-3 pb-0 d-flex justify-content-center align-items-center shadow" >
+                    <div class="mx-4">
+                        <figure>
+                            <img src="/img/Gallery/kelingking.jpg" alt="Image" class="img-fluid">
+                            <div>
+                                <p class="text-center">Pantai Kelingking Bali</p>
+                            </div>                    
+                        </figure>
+                    </div>
+                    <div class="mx-4">
+                        <figure class="effect-ming tm-video-item">
+                            <img src="/img/Gallery/pura ulun danu bratan.jpg" alt="Image" class="img-fluid">
+                            <figcaption>
+                                <p class="text-center">Pura Ulun Danu Bratan</p>
+                            </figcaption>                    
+                        </figure>
+                    </div>
+                    <div class="mx-4">
+                        <figure class="effect-ming tm-video-item">
+                            <img src="/img/Gallery/taman budaya gwk.jpg" alt="Image" class="img-fluid">
+                            <figcaption>
+                                <p class="text-center">Taman Budaya GWK</p>
+                            </figcaption>                    
+                        </figure>
+                    </div>
+
+                </div>
+                    
+
+
+
+
+            </section>
+        </article>
+    </main>
+
+    <footer class="d-flex flex-column" style="background-color: #467aad;">
+       <div class="foot d-flex flex-row py-3" id="contact">
+            <div class="px-5">
+                <h5>RECENT POST</h5>
+                <hr>
+                <h5><u>Trekking di Bali</h5>
+                <h5>Jadwal Upacara Bali</h5>
+                <h5>Pulau Dewata Bali</u></h5>
+            </div>
+            <div class="">
+                <h5>CONTACT</h5>
+                <hr>
+                <h5><u>Jalan Dewata, No. 8 Gianyar, Bali</h5>
+                <h5>Phone: 0812 3456 7890</h5>
+                <h5>Email: travelbali@email.com</u></h5>
+            </div>
+       </div>
+       <div class="py-3 text-center"  style="background-color: #1D5D9B; color: wheat;">Copyright © 2017 Bali.travel. All Rights Reserved.</div>
+    </footer>
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
