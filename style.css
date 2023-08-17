@@ -1,0 +1,219 @@
+@media (max-width: 485px) {
+    .navblue{
+        background-color: #f4c7a2 !important;
+    }
+            .headnav1{
+                width: 20%;
+            }
+            .headnav2{
+                width: 30px;
+            }
+            .navblue{
+                margin-top: -2px;
+            }
+            .navblue img{
+                width: 160px;
+            }.navbar-nav{
+                width: 0px;
+            }
+            .nav-item{
+                margin-right: 10px;
+            }
+            .navbar-nav li{
+                font-size: 15px;
+            }}
+
+@media (max-width: 465px) {
+            .navblue img{
+                width: 140px;}
+            .navbar-nav li{
+                font-size: 10px !important;
+            }
+            .headnav1{
+                width:20%;
+            }
+            .foot u{
+                font-size: 10px !important;
+            }
+            .foot h5{
+                font-size: 10px !important;
+            }}
+       
+@media (max-width: 1000px) {
+    .navblue{
+        background-color: #a2f4b5 !important;
+    }
+    .card2{
+        background-color: rgb(204, 248, 219) !important;
+    }
+    .card3{
+    background-color: rgb(182, 247, 201) !important;
+    }
+    .btn-info{
+        background-color: #00c69b;
+    }
+    .foot{
+        background-color: #46ad98 !important;
+        /* background-color: #1d9b93; */
+    }
+    .footend{
+        background-color: #125a51 !important;
+    }
+    .blank {
+        width: 20px;
+    }
+    .foot{
+        margin-left: 0px !important;
+    }
+    .seeall{
+        margin-left: 70%;
+    }}
+
+@media (min-width:485px) and  (max-width: 1000px) {
+    .headnav1{
+        width: 40%;
+    }}
+
+@media (max-width:370px){
+            .headnav1{
+                width:12%;
+            }
+            .navbar-nav li{
+                font-size: 8px !important;
+            }
+            .card1 img{
+                height: 200px;
+                object-fit: cover;
+            object-position: center;
+            }}
+
+@media (max-width:303px){
+            .headnav1{
+                width:5vh;
+            }
+            .navbar-nav li{
+                font-size: 5px !important;
+            }}
+
+@media (min-width: 1000px){
+    .navblue{
+        justify-content: center;
+    }
+    .headnav1{
+        width: 90%;
+    }
+
+    .foot{
+            text-align: justify;
+            margin-left: 50%;
+        }
+    .seeall{
+        margin-left: 85%;
+    }
+}
+        
+        .body{
+            font-family: 'Calibri' !important;
+            
+
+        }
+        .nav-item {
+            margin-left: 0px;
+            width: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            font-weight: bold;
+
+        }
+
+        .nav-item:hover {
+            background-color: #1D5D9B;
+            transition-duration: 1s;
+        }
+
+        .blank {
+            width: 65%;
+        }
+        .gallery {
+            height: 80vh;
+            border: 1px solid black;
+        }
+        .main {
+            height: 5000px;
+        }
+        .card2{
+            padding: 20px;
+            background-color: rgb(204, 236, 248);
+            /* margin-bottom: 15px; */
+        }
+        .card p{
+            color: rgba(102, 102, 102, 0.758);
+        }
+        .card3{
+            padding: 20px;
+            padding-bottom: 40px;
+            background-color: rgb(182, 226, 247);
+        }
+        .card1{
+            background-color: rgb(255, 146, 113);
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: white;
+        }
+        .card{
+            padding: -10px;
+            margin: 10px;
+        }
+        .card-title{
+            font-weight: bold;
+        }
+
+        .a1{
+            border: 1px solid black;
+            height: 40vh;
+            width: 30vh;
+            background-color: aliceblue;
+            margin: 20px;
+        }
+        .a2{
+            border: 1px solid black;
+            height: 40vh;
+            width: 30vh;
+            background-color: aqua;
+            margin: 20px;
+        }
+        .btncard{
+            background-color: cyan;
+        }
+        .gallery1 img{
+            height: 300px;
+            width: 300px;
+            object-fit: cover;
+            object-position: center;
+        }
+        .foot{
+            text-align: justify;
+            
+        }
+
+        .foot u{
+                font-size: 15px;
+            }
+            .foot h5{
+                font-size: 15px;
+            }
+
+        li{
+            list-style-type: none;
+        }
+        .foot1 p{
+            padding-left: 30px;
+        }
+        footer p{
+            font-weight: bold;
+        }
