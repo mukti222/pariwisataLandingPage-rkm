@@ -1,3 +1,6 @@
+/* saya menggunakan beberapa media query dengan resolusi 
+berbeda beda untuk mengubah ukuran obyek, font size, 
+warna page dll supaya landing page dapat responsive */
 @media (max-width: 485px) {
     .navblue{
         background-color: #f4c7a2 !important;
